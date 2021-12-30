@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-white{
+    color: white !important;
+}
+
+.Header{
+    width: 92%;
+    margin: 0 auto;
+    padding: 1.5em 0;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Header div{
+    display: flex;
+}
+
+.Header div img{
+    height: 2.3em;
+    margin-right: 0.5em;
+}
+
+.Header div h1{
+    line-height: 1;
+    font-weight: 800;
+    font-size: 2.3em;
+} 
+
+.Header div span{
+    line-height: 2.5;
+    opacity: 0.5;
+}
+
+.Header ul{
+    display: flex;
+    list-style-type: none;
+    font-family: Roboto, monospace;
+}
+
+.Header ul li{
+    height: fit-content;
+    margin-left: 1em;
+    vertical-align: middle;
+    font-size: 0.9em;
+    padding: 0.6rem 0.5rem;
+}
+
+
+.Header ul li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.Header ul li a svg{
+    height: 1.3rem;
+}
+
+.btn-gradient{
+    align-items: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 0.83rem;
+    margin: 0;
+    min-width: 0;
+    padding: 0.5rem;
+    background: linear-gradient( 
+-60deg, #cb1a8f, #fc02a7);
+}
+
+.dropdown-show{
+    display: flex !important;
+}
+
+.drop-menu ul{
+    flex-direction: column;
+    position: absolute;
+    margin-left: -9.5em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    background-color: white;
+    display: none;
+}
+
+.drop-menu2 ul{
+    flex-direction: column;
+    position: absolute;
+    width: 12.5rem;
+    margin-left: -8em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    background-color: white;
+    display: none;
+}
+
+.drop-menu ul li{
+    margin: 0 0.7em;
+}
+
+.drop-menu2 ul li{
+    margin: 0 0.7em;
+}
+
+.drop-menu ul li:last-child{
+    border-top: 1px solid #d1d1d1;
+}

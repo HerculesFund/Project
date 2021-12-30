@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Section */
+
+.tab1{
+    min-height: 100vh;
+}
+
+.tab1 video{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    min-height: 120%;
+    max-width: 100%;
+    transform: translate(-50%,0);
+    z-index: -1;
+    overflow: hidden;
+}
+
+.tab1>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tab1 div h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tab1>div>p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.buy-dough img{
+    height: 50px;
+    margin: 0.5em;
+}
+
+.tab1>div>img{
+    height: auto;
+}
+
+.buy-dough{
+    display: flex;
+    margin-top: 1rem;
+    display: inline-flex;
+    border: double 1px transparent;
+    border-radius: 10rem;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left,#ff8932, #a50bce, #1fa6e0, #47d482);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-size: 400% 400%;
+    cursor: pointer;
+}
+
+.buy-dough>div{
+    flex-direction: column;
+    text-align: left;
+    line-height: 1;
+    height: fit-content;
+    margin: auto 0;
+    margin: auto 1rem auto 0;
+}
+
+.buy-dough>div>h4{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.buy-dough>div>h4{
+    font-size: 1.1rem;
+}
+
+.tab1-main>a{
+    color: #EC1EA0;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+}
+
+.buy-dough-metamask{
+    font-size: 1rem !important;
+    font-weight: 200;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.tab1-main{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+    margin: auto;
+    margin-top: auto;
+    max-width: 1280px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 96%;
+    transform: translate(0, 25%);
+}
+
+/* End of First Section */
+
+/* ----------------------------------------------------------------- */
+
+/* Second Section */
+
+.tab2{
+    display: flex;
+    position: relative;
+    background-color: #f7f7f7;
+    padding: 3rem 2.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    max-width: 1240px;
+    top: 4em;
+    margin: 2.5rem auto;
+}
+
+.tab2 div{
+    display: flex;
+    flex-direction: column;
+    font-weight: 640;
+}
+
+.tab2 div img{
+   height: 50px;
+   width: 50px;
+   margin: 0 auto;
+   margin-bottom: 1rem;
+}
+
+.tab2 div span{
+    line-height: 1.25rem;
+    text-align: center;
+}
+
+
+/* End of Second Section */
+
+/* ----------------------------------------------------------------- */
+
+/* Third Section */
+
+.tab3{
+    top: 5em;
+    position: relative;
+    text-align: center;
+}
+
+.tab3 a{
+    background-color: #ED1EA0;
+    border-radius: 10px;
+    padding: 15px;
+    top: 2rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* End of Third Section */
+
+/* ----------------------------------------------------------------- */
+
+/* Fourth Section */
+
+.tab4{
+    background-color: rgb(225, 244, 242);
+    border-radius: 1.6rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    top: 15em;
+    max-width: 1250px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tab4>p{
+    font-weight: 700;
+}
+
+.tab4>div{
+    display: flex;
+}
+
+.tab4>div>div>img{
+    width: 24px;
+    margin-right: 0.5rem;
+}
+
+.tab4>div>div{
+    display: flex;
+    padding: 16px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 1rem 1rem 0 0;
+}
+
+.tab4>div>div>p>strong{
+    margin: 0 1rem 0 0.5rem;
+}
+
+/* End of Fourth Section */
+
+/* ----------------------------------------------------------------- */
+
+/* Fifth Section */
+
+.tab5{
+    top: 20em;
+    text-align: center;
+    position: relative;
+}
+
+.tab5 h2{
+    font-size: 2.8rem;
+}
+
+.tab5 p{
+font-size: 1.2rem;
+}
+
+.tab5 a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
