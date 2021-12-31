@@ -196,6 +196,11 @@
     font-weight: 700;
 }
 
+.tab4>p>img{
+    vertical-align: middle;
+    width: 24px;
+}
+
 .tab4>div{
     display: flex;
 }
@@ -207,15 +212,54 @@
 
 .tab4>div>div{
     display: flex;
-    padding: 16px;
+    padding: 17px;
     background-color: white;
     border-radius: 20px;
     margin: 1rem 1rem 0 0;
+    width: fit-content;
 }
 
 .tab4>div>div>p>strong{
     margin: 0 1rem 0 0.5rem;
 }
+
+.progress {
+    height: 1.7em;
+    width: 17em;
+    background-color: #dbffdd;
+    position: relative;
+    border-radius: 10px;
+  }
+
+
+  .progress:before {
+    content: attr(data-label);
+    white-space: nowrap;
+    font-size: 0.75em;
+    font-weight: 700;
+    line-height: 1.2;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 0;
+    right: 0;
+  }
+
+.progress .value {
+    background-color: #38fe61;
+    border-radius: 10px 0 0 10px;
+    display: inline-block;
+    height: 100%;
+    width: 44.92%;
+  }
+
+.yellow{
+    background-color: #fde502 !important;
+}
+
+  .progress .value100 {
+      width: 100%;
+  }
 
 /* End of Fourth Section */
 
