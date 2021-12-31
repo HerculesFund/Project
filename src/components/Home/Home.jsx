@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./../Header/Header";
+import Footer from "./../Footer/Footer";
+
 import background from "./../../images/doughbgvidlow.mp4";
 import dough from "./../../images/doughcolorful.svg";
 import veDOUGH from "./../../images/veDOUGH.svg";
@@ -10,6 +12,7 @@ import raisedHand from "./../../images/raised-hand.png";
 import womanLaptop from "./../../images/woman-laptop.png";
 import pirates from "./../../images/pirates.png";
 import gem from "./../../images/gem.png";
+import steak from "./../../images/steak.png";
 import hourglass from "./../../images/hourglass.png";
 import "./Home.css";
 
@@ -107,18 +110,21 @@ const Home = () => {
         <a href="#">Stake DOUGH</a>
       </div>
       <div className="tab4">
-        <p>Key Staking Stats</p>
+        <p> <img src={steak} alt="" /> Key Staking Stats</p>
         <div>
           <div>
             <img src={buyDough} alt="" />
             <p>
               Total staked DOUGH <strong>0.00 DOUGH</strong>
             </p>
+            <div class="progress" data-label="44.92% of 27,74 M Tot circulating DOUGH">
+              <span class="value"></span>
+            </div>
           </div>
           <div>
             <img src={lock} alt="" />
             <p>
-              Average Time Lock <strong> 0 Months</strong>
+              Average Time Lock <strong> 34 Months</strong>
             </p>
           </div>
         </div>
@@ -129,11 +135,14 @@ const Home = () => {
             <p>
               Total veDOUGH <strong> 0.00 veDOUGH</strong>
             </p>
+            <div class="progress yellow" data-label="5% Quorum = 610,237.70 veDOUGH">
+              <span class="value value-100 yellow"></span>
+            </div>
           </div>
           <div>
             <img src={person} alt="" />
             <p>
-              Voting Addresses <strong> 0 </strong>
+              Voting Addresses <strong> 322 </strong>
             </p>
           </div>
         </div>
@@ -147,6 +156,7 @@ const Home = () => {
         </p>
         <a href="#">Test your assumptions on the simulator ></a>
       </div>
+      <Footer />
     </div>
   );
 };
